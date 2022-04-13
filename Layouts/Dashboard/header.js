@@ -4,7 +4,7 @@ import Button from "../../Components/Button";
 export default function Header (){
     return(
 <div className="header">
-    <div className="nav col-10 row align-items-center m-auto">
+    <div className="nav col-10 row justify-content-md-between align-items-center m-auto">
 <div className="col-2">
      <img src="./img/logo.png" />
 </div>
