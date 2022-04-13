@@ -10,7 +10,7 @@ export default function Header (){
 </div>
        
         <div className="d-flex col-10 justify-content-between">
-        <ul className="d-flex d-md-block d-none p-0">
+        <ul className="d-flex d-md-flex d-none p-0">
             <li className="ms-0">ROADMAP</li>
             <li>ABOUT</li>
             <li>TEAM</li>
