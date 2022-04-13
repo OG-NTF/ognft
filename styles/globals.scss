@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Hanson";
-  src: url("../styles/font/Hanson-Bold.otf");
+  src: url("../public/font/Hanson-Bold.otf");
 }
 @font-face {
   font-family: "Gelano";
-  src: url("../styles/font/GalanoGrotesqueAltBlack.otf");
+  src: url("../public/font/GalanoGrotesqueAltBlack.otf");
 }
 @font-face {
   font-family: "GelanoReg";
-  src: url("../styles/font/GalanoGrotesqueRegular.otf");
+  src: url("../public/font/GalanoGrotesqueRegular.otf");
 }
 @font-face {
   font-family: "Popping";
-  src: url("../styles/font/Poppins-Regular.ttf");
+  src: url("../public/font/Poppins-Regular.ttf");
 }
 
 body {
@@ -224,6 +224,7 @@ color: #F5F6F8;
 }
 li{
   width: 350px !important;
+  height: 599px !important;
 }
   img{
     border-radius: 20px;
