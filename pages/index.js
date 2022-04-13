@@ -1,0 +1,19 @@
+import React from 'react'
+import Faqs from '../Layouts/Dashboard/faqs'
+import Roadmap from '../Layouts/Dashboard/roadmap'
+import Mints from '../Layouts/Dashboard/mint'
+import Header from '../Layouts/Dashboard/header'
+import Hero from '../Layouts/Dashboard/hero'
+import Meet from '../Layouts/Dashboard/meet'
+export default function Index() {
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <Meet />
+      <Mints />
+      <Roadmap />
+      <Faqs />
+    </div>
+  )
+}
