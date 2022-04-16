@@ -1,7 +1,8 @@
-import React from "react";
+import React,  { useState } from "react";
 import Button from "../../Components/Button";
 
 export default function Mints (){
+    const [count, setCount] = useState(0);
 return(
     <div className="mints">
         <div className="mint-chd">
@@ -15,9 +16,9 @@ return(
 <p>Max mint - 10</p>
 <div className="wrap d-flex ">
     <div className="d-flex me-2 align-items-center add justify-content-between">
-        <button className='btn'>+</button>
-        <div>1</div>
-        <button className='btn'>-</button>
+        <button onClick={() => setCount(count - 1)} className='btn'>-</button>
+        <div>{count}</div>
+        <button onClick={() => setCount(count + 1)} className='btn'>+</button>
     </div>
     <Button variant='black'>Mint NFT</Button>
 </div>

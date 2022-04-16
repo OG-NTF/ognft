@@ -37,12 +37,13 @@ return(
     <div className="roadmap">
         <div className="head-font">Roadmap</div>
             <p className="para">Our Journey through the project</p>
+              <div className="data-cover col-md-9 col-8 m-auto">
             {
                 data.map((d , index)=>{
                     return(
-                        <div className="data-cover col-md-6 col-8 m-auto row">
-
-<div className="head-font col-md-4 col-3 date">{d.date}</div>
+                      
+<div className="row justify-content-end map ope">
+<div className="head-font col-md-3 col-3 date">{d.date}</div>
             <div className="col-md-8 col-5">
             <div className="d-flex align-items-center  ">
                 {/* <img src="./img/circle.png"></img> */}
@@ -52,10 +53,11 @@ return(
             <div className={`my-1 text ${index + 1 == data.length ? "remoe" :""}`}>
 {d.text}            </div>
             </div>
-                            </div>
+                        </div>    
                     )
                 })
             }
+    </div>
     </div>
 )
 }

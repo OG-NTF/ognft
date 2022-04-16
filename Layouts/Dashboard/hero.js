@@ -1,28 +1,46 @@
-import React from "react";
+import React, { useState, useEffect }  from "react";
 import Button from "../../Components/Button";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+// import Dots from 'react-carousel-dots';
 
 export default function Hero (){
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 1
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 1
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 1
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-      };
+    const data =[
+   {
+    id:1,  
+    img:"./img/carou1.png"
+   },
+   {
+    id:2,  
+    img:"./img/carou2.png"
+   },
+   {
+    id:3,  
+    img:"./img/carou.png"
+
+   }
+    ]
+    const [people, setPeople] = useState(data);
+  const [index, setIndex] = React.useState(0);
+
+  useEffect(() => {
+    const lastIndex = people.length - 1;
+    if (index < 0) {
+      setIndex(lastIndex);
+    }
+    if (index > lastIndex) {
+      setIndex(0);
+    }
+  }, [index, people]);
+
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1);
+    }, 5000);
+    return () => {
+      clearInterval(slider);
+    };
+  }, [index]);
     return(
 <div className="hero">
     <div className="row w-100 justify-content-between">
@@ -52,18 +70,41 @@ export default function Hero (){
 </div>
         </div>
         <div className="col-4 slide">
-        <Carousel responsive={responsive}>
-  <div>
-      <img src="/img/carou.png" />
-  </div>
-  <div>
-      <img src="/img/carou1.png" />
-  </div>
-  <div>
-      <img src="/img/carou2.png" />
-  </div>
-  </Carousel>
+          <div className='slide-wrap'>
+             {people.map((person, personIndex) => {
+          const { id, img} = person;
+
+          let position = 'nextSlide';
+          if (personIndex === index) {
+            position = 'activeSlide';
+          }
+          if (
+            personIndex === index - 1 ||
+            (index === 0 && personIndex === people.length - 1)
+          ) {
+            position = 'lastSlide';
+          }
+
+          return (
+            <article className={position} key={id}>
+              <img src={img} alt='' className='person-img' />
+            </article>
+          );
+        })}
+          </div>
+          <div className="d-flex align-items-center justify-content-between" style={{
+            marginTop: '105px'
+          }}>
+            <div className="d-flex">
+              <div className="hero-btn" onClick={() => setIndex(0)}></div>
+              <div className="mx-2 hero-btn" onClick={() => setIndex(1)}></div>
+              <div className="hero-btn" onClick={() => setIndex(2)}></div>
+            </div>
+            <div className="see">See All Items</div>
+          </div>
+       
         </div>
+        
     </div>
 </div>  
     )

@@ -5,6 +5,8 @@ import Mints from '../Layouts/Dashboard/mint'
 import Header from '../Layouts/Dashboard/header'
 import Hero from '../Layouts/Dashboard/hero'
 import Meet from '../Layouts/Dashboard/meet'
+import Story from '../Layouts/Dashboard/story'
+import Slides from '../Layouts/Dashboard/slides'
 import Footer from '../Layouts/Dashboard/footer'
 export default function Index() {
   return (
@@ -12,9 +14,11 @@ export default function Index() {
       <Header />
       <Hero />
       <Meet />
+      <Story />
       <Mints />
       <Roadmap />
       <Faqs />
+      {/* <Slides /> */}
       <Footer />
     </div>
   )

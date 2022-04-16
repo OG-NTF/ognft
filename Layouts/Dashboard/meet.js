@@ -4,7 +4,7 @@ import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-export default function Meet (){
+export default function Meet (props){
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -13,15 +13,18 @@ export default function Meet (){
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3 
+          items: 3 ,
+          slidesToSlide: 3
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 2
+          items: 2,
+          slidesToSlide: 2
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
-          items: 0
+          items: 1,
+          slidesToSlide: 1
         }
       };
      
@@ -36,7 +39,24 @@ return(
      <div className="text-center ahh"> <a>See All Collections</a>  </div>
 
      <div className='my-own-custom-container'>
-       <Carousel responsive={responsive}>
+       <Carousel 
+        swipeable={false}
+        draggable={false}
+        showDots={true}
+        responsive={responsive}
+        ssr={true} // means to render carousel on server-side.
+        infinite={true}
+        autoPlay={props.deviceType !== "mobile" ? true : false}
+        autoPlaySpeed={10000}
+        keyBoardControl={true}
+        customTransition="all .5"
+        transitionDuration={1000}
+        containerClass="carousel-container"
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        deviceType={props.deviceType}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+       >
   <div>
       <img src="/img/carou.png" />
   </div>

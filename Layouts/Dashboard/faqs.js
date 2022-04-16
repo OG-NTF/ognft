@@ -10,7 +10,7 @@ export default function Faqs (){
             <p>Wanna Ask Something?</p>
 
             <div>
-                    <Accordion className="acc">
+                    <Accordion className="acc col-md-8 col-10">
                         <Card className="carr">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="0">
                             Lorem ipsum ipsum ?
