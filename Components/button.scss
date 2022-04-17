@@ -8,7 +8,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 12px;
 line-height: 26px;
-text-align: center;
+text-align: center !important;
 letter-spacing: -0.02em;
 
 color: #101010;
@@ -22,5 +22,12 @@ font-size: 16px;
 font-weight: bold;
 padding: 16px 24px;
 letter-spacing: 0.01em;
+}
+}
+@media screen and (max-width: 800px) {
+.btn{
+padding: 8px 18px;
+font-size: 8px;
+line-height: 22px;
 }
 }

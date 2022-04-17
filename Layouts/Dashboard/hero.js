@@ -44,7 +44,7 @@ export default function Hero (){
     return(
 <div className="hero">
     <div className="row w-100 justify-content-between">
-        <div className='col-6'>
+        <div className='col-12 col-md-6 mb-md-0 mb-5'>
             <div className="head-font">OG NFT</div>
             <p className="hero-tet">The OG NFT is a 10K unit generative art collection illustrating specific Original Gangster “OG” attributes of highly notable individuals that shaped our society. 
 </p>
@@ -69,7 +69,7 @@ export default function Hero (){
     </div>
 </div>
         </div>
-        <div className="col-4 slide">
+        <div className="col-sm-12 col-md-5 m-auto m-md-0 slide">
           <div className='slide-wrap'>
              {people.map((person, personIndex) => {
           const { id, img} = person;

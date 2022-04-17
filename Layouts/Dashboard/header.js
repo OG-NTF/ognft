@@ -4,13 +4,13 @@ import Button from "../../Components/Button";
 export default function Header (){
     return(
 <div className="header">
-    <div className="nav col-10 row justify-content-md-between align-items-center m-auto">
-<div className="col-2">
+    <div className="nav col-12 col-md-10 row align-items-center justify-content-between m-auto">
+<div className="col-md-1 col-2">
      <img src="./img/logo.png" />
 </div>
        
-        <div className="d-flex col-10 justify-content-between">
-        <ul className="d-flex d-md-flex d-none p-0">
+        <div className="d-flex col-6 col-sm-8 col-md-11 align-items-center justify-content-between">
+        <ul className=" d-md-flex d-none p-0">
             <li className="ms-0">ROADMAP</li>
             <li>ABOUT</li>
             <li>TEAM</li>

@@ -349,7 +349,8 @@ color: rgba(255, 255, 255, 0.5);
   .activeSlide {
     // opacity: 1;
     transform: translateX(0);
-    // margin-right: 10px;
+ 
+    // padding-right: 10px;
     // max-width: 200px;
   }
   .lastSlide {
@@ -451,4 +452,45 @@ border-radius: 11.12px;
   }
 }
 
+}
+.team{
+  background-image: url(/img/people.png);
+}
+
+
+@media screen and (max-width: 950px) {
+.header{
+  ul{
+    font-size: 10px;
+    line-height: 20px;
+    li{
+      margin-left: 25px;
+    }
+  }
+}
+.hero{
+  padding-top: 63px;
+    padding-left: 70px;
+    padding-bottom: 77px;
+  .head-font{
+    font-size: 58px;
+    margin-bottom: 20px;
+  }
+}
+}
+@media screen and (max-width: 800px) {
+.hero{
+  padding-top: 33px;
+    padding-left: 30px;
+    padding-bottom: 37px;
+}
+}
+@media screen and (max-width: 768px) {
+.hero{
+  .slide{
+    .slide-wrap{
+      width: 250%;
+    }
+  }
+}
 }
