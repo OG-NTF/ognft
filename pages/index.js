@@ -13,13 +13,13 @@ export default function Index() {
     <div>
       <Header />
        <Hero />
-     {/* <Meet />
+     <Meet />
       <Story />
       <Mints />
       <Roadmap />
       <Faqs />
       <Team />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
