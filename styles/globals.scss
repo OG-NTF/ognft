@@ -405,7 +405,11 @@ line-height: 26px;
 font-weight: bold;
 color: #EFEFEF;
   }
-  
+  .text{
+    position: absolute;
+    right: -47%;
+    margin-top: 38.59px
+  }
   .img1{
    padding-top: 73px;
     img{
@@ -484,13 +488,62 @@ border-radius: 11.12px;
     padding-left: 30px;
     padding-bottom: 37px;
 }
+.footer{
+  .footer-body{
+    padding-left: 30px;
+}
+}
 }
 @media screen and (max-width: 768px) {
+  .head-font{
+    font-size: 24px;
+  line-height: 23px;
+  }
 .hero{
   .slide{
     .slide-wrap{
       width: 250%;
     }
   }
+}
+.story{
+  padding-bottom: 50px !important;
+  .story-head{
+    font-size: 42px;
+    padding-bottom: 10px;
+  }
+  .images{
+    padding-top: 0px;
+    .text{
+      position: initial;
+      right: -47%;
+      margin-top: 38.59px
+    }
+    .img2{
+      img{
+  width: 100%;
+  padding-top: 20px;
+  }
+}
+.img3{
+  padding-top: 20px;
+  text-align: center;
+}
+}
+}
+.mints {
+ .mint-chd{
+  padding-right: 10px;
+  .cover{
+    margin-left: 15px;
+    .dark{
+      font-size: 24px;
+    }
+    p{
+      font-size: 18px;
+    line-height: 16px;
+    }
+  }
+ }
 }
 }

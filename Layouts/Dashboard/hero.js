@@ -46,7 +46,7 @@ export default function Hero (){
     <div className="row w-100 justify-content-between">
         <div className='col-12 col-md-6 mb-md-0 mb-5'>
             <div className="head-font">OG NFT</div>
-            <p className="hero-tet">The OG NFT is a 10K unit generative art collection illustrating specific Original Gangster “OG” attributes of highly notable individuals that shaped our society. 
+            <p className="hero-tet">The OG NFT is a 10K unit generative art collection illustrating specific Original Gangster “OG” attributes of highly notable individuals that have shaped modern society. 
 </p>
 <div className="btn-wrap">
     <Button variant='font'>MINT NOW</Button>

@@ -13,41 +13,76 @@ export default function Faqs (){
                     <Accordion className="acc col-md-8 col-10">
                         <Card className="carr">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="0">
-                            Lorem ipsum ipsum ?
+                            What is an NFT
                             <FaPlus />
                             </Accordion.Toggle>
 
                             <Accordion.Collapse eventKey="0">
                                 <Card.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </Card.Body>
+                                NFTs (Non-Fungible tokens) are <b> individual tokens with valuable information stored in them. </b>Because they hold a value primarily set by the market and demand, they can be bought and sold just like other physical types of art. 
+                                 </Card.Body>
                             </Accordion.Collapse>
                         </Card>
 
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="1">
-                            
-                            Lorem ipsum ipsum ?
+                            What is our Mint price :
                             <FaPlus />
 
                             </Accordion.Toggle>
 
                             <Accordion.Collapse eventKey="1">
                                 <Card.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </Card.Body>
+                                0.07 ETH
+                                      </Card.Body>
                             </Accordion.Collapse>
                         </Card>
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="2">
-                            Lorem ipsum ipsum ?
+                            What is the Mint date
                             <FaPlus />
                             </Accordion.Toggle>
 
                             <Accordion.Collapse eventKey="2">
                                 <Card.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </Card.Body>
+                                20 June 2022 UTC +1 (12:00AM)
+                                    </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                        <Card className="carr mt-5">
+                            <Accordion.Toggle as={Card.Header} className="head-font" eventKey="3">
+                            What is the Total Number of available mint
+                            <FaPlus />
+                            </Accordion.Toggle>
+
+                            <Accordion.Collapse eventKey="3">
+                                <Card.Body>
+                                10K units
+                                    </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                        <Card className="carr mt-5">
+                            <Accordion.Toggle as={Card.Header} className="head-font" eventKey="4">
+                            On what Blockchain Network will OG NFT Society be on
+                            <FaPlus />
+                            </Accordion.Toggle>
+
+                            <Accordion.Collapse eventKey="4">
+                                <Card.Body>
+                                It will be on Ethereum Blockchain
+                                    </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                        <Card className="carr mt-5">
+                            <Accordion.Toggle as={Card.Header} className="head-font" eventKey="5">
+                            Who Holds the IP rights of OG NFT Society:
+                            <FaPlus />
+                            </Accordion.Toggle>
+
+                            <Accordion.Collapse eventKey="5">
+                                <Card.Body>
+                                Yes, holders of OG NFT Society will get IP rights of their NFTs
+                                    </Card.Body>
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>

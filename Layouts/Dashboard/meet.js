@@ -31,8 +31,8 @@ export default function Meet (props){
 return(
 <div className="meet">
     <div className="col-10 row justify-content-between m-auto">
-        <div className="head-font col-4 text-left">Meet the <p style={{color: "#9CFF00;"}}>OG’s</p> </div>
-        <div className="col-5 meet-tet">Every individual making a positive impact to society is an OG, and we are taking the step to acknowledge them with the “OG” classical NFT collection. 
+        <div className="head-font col-12 col-md-4 text-left">Meet the <p style={{color: "#9CFF00;"}}>OG’s</p> </div>
+        <div className="col-12 col-md-5 mt-3 mt-md-0 meet-tet">Every individual making a positive impact to society is an OG, and we are taking the step to acknowledge them with the “OG” classical NFT collection. 
 </div>
     </div>
      

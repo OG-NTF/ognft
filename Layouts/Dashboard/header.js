@@ -9,7 +9,7 @@ export default function Header (){
      <img src="./img/logo.png" />
 </div>
        
-        <div className="d-flex col-6 col-sm-8 col-md-11 align-items-center justify-content-between">
+        <div className="d-flex col-7 col-md-11 align-items-center justify-content-between">
         <ul className=" d-md-flex d-none p-0">
             <li className="ms-0">ROADMAP</li>
             <li>ABOUT</li>

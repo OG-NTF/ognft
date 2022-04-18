@@ -11,7 +11,8 @@ return(
 <a>  {'>> Buy on OpenSea <<'}</a>
                     </div>
             <div className="head-font dark">Mint your own OG NFT</div>
-            <p>Connect your own wallet and mint your own <br /> unique, creative, awesome OG NFT</p>
+            <p>Connect your own wallet and mint your own <br className="
+            d-none d-md-block" /> unique, creative, awesome OG NFT</p>
         <div className="btn-cov">
 <p>Max mint - 10</p>
 <div className="wrap d-flex ">
