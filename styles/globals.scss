@@ -426,6 +426,11 @@ border-radius: 13.8919px;
       margin-top: 21px;
     }
   }
+  .img1{
+    img{
+        width: 100%;
+    }
+  }
   .img2{
    
     img{
@@ -522,6 +527,9 @@ color: #F5F6F8;
   line-height: 23px;
   }
 .hero{
+  .head-font{
+    font-size: 38px;
+  }
   .slide{
     .slide-wrap{
       width: 250%;
@@ -577,6 +585,9 @@ color: #F5F6F8;
 .roadmap{
   .map{
     justify-content: center;
+    .title{
+      font-size: 7px;
+    }
     .date{
       font-size: 17px;
     }
@@ -607,8 +618,16 @@ color: #F5F6F8;
   .text{
     font-size: 10px;
 line-height: 22px;
-margin-top: 24px;
-margin-bottom: 38px;
+margin-top: 15px;
+margin-bottom: 8px;
+  }
+}
+.footer{
+  .footer-body{
+    div{
+      font-size: 24px;
+      line-height: 25px;
+    }
   }
 }
 }
