@@ -7,7 +7,7 @@ return(
     <div className="mints">
         <div className="mint-chd">
             <div className="cover">
-                <div> 
+                <div className="text-end"> 
 <a>  {'>> Buy on OpenSea <<'}</a>
                     </div>
             <div className="head-font dark">Mint your own OG NFT</div>

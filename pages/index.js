@@ -16,9 +16,9 @@ export default function Index() {
        <Meet />
     <Story />
      <Mints />
-     {/*   <Roadmap />
-      <Faqs />
-      <Team /> */}
+       <Roadmap />
+       <Faqs />
+     <Team />
       <Footer />
     </div>
   )

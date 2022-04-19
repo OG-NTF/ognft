@@ -37,20 +37,20 @@ return(
     <div className="roadmap">
         <div className="head-font">Roadmap</div>
             <p className="para">Our Journey through the project</p>
-              <div className="data-cover col-md-9 col-8 m-auto">
+              <div className="data-cover col-md-9 col-12 m-auto">
             {
                 data.map((d , index)=>{
                     return(
                       
-<div className="row justify-content-end map ope">
-<div className="head-font col-md-3 col-3 date">{d.date}</div>
-            <div className="col-md-8 col-5">
+<div className="row map ope">
+<div className="head-font col-md-3 col-4 date">{d.date}</div>
+            <div className="col-md-8 col-7">
             <div className="d-flex align-items-center  ">
                 {/* <img src="./img/circle.png"></img> */}
                 <div className="circle"></div>
                 <div className="head-font title">{d.title}</div>
             </div>
-            <div className={`my-1 text ${index + 1 == data.length ? "remoe" :""}`}>
+            <div className={`mb-3 mb-md-0 text ${index + 1 == data.length ? "remoe" :""}`}>
 {d.text}            </div>
             </div>
                         </div>    
