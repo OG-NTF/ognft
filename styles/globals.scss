@@ -216,6 +216,7 @@ button{
   height: auto;
   padding-top: 100px;
   padding-bottom: 174px;
+  overflow: hidden;
   .head-font{
     text-align: left;
   }
@@ -225,13 +226,11 @@ button{
 line-height: 26px;
 letter-spacing: 0.01em;
 color: #F5F6F8;
-
-  }
-  .ahh{
+ .ahh{
     margin-top: 34px;
     margin-bottom: 19px;
   }
-  a{
+   a{
   font-family: 'Gelano';
   font-size: 15px;
   line-height: 28px;
@@ -240,6 +239,9 @@ color: #F5F6F8;
   color: #9CFF00 !important;
  
 }
+  }
+ 
+ 
 li{
   width: 360px !important;
     height: 450px !important;
@@ -460,6 +462,7 @@ border-radius: 11.12px;
 }
 .team{
   background-image: url(/img/people.png);
+  background-size: contain;
   width: 100%;
   height: auto;
   background-position: center;
@@ -574,6 +577,9 @@ color: #F5F6F8;
 .roadmap{
   .map{
     justify-content: center;
+    .date{
+      font-size: 17px;
+    }
     .text{
 
     font-size: 10px;
@@ -594,5 +600,15 @@ color: #F5F6F8;
   }
   }
   
+}
+.team{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  .text{
+    font-size: 10px;
+line-height: 22px;
+margin-top: 24px;
+margin-bottom: 38px;
+  }
 }
 }
