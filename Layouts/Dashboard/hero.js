@@ -8,15 +8,15 @@ export default function Hero (){
     const data =[
    {
     id:1,  
-    img:"./img/carou1.png"
+    img:"/img/nft.jpg"
    },
    {
     id:2,  
-    img:"./img/carou2.png"
+    img:"./img/og.jpeg"
    },
    {
     id:3,  
-    img:"./img/carou.png"
+    img:"/img/oas.PNG"
 
    }
     ]

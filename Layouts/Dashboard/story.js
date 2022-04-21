@@ -37,14 +37,14 @@ return(
         </div>
         <div className="images w-100 row">
             <div className="img1 col-12 col-md-4">
-                <img src="./img/carou.png"/>
+                <img src="/img/oas.PNG"/>
             
 
                 <p>The “OG NFT” Character draws its ideology from the traditional “OG” keyword in our society, commonly referred to as Original Gangster. </p>
             </div>
             <div className="img2 col-md-5 col-12 position-relative">
-            <img src="./img/carou.png" className="abso d-none d-md-block"/>
-            <img src="./img/carou.png"/>
+            <img src="./img/nft.jpg" className="abso d-none d-md-block"/>
+            <img src="./img/og.jpeg"/>
 <p className='text col-12'ref={ref} style={{
    
 }}>The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More!!
@@ -53,7 +53,7 @@ The OG brand recognizes notable personalities and individuals that have gone on 
 
             </div>
             <div className="img3 col-12 col-md-3">
-            <img src="./img/carou.png"/>
+            <img src="/img/nft.jpg"/>
 <p className='mt-3'>The OG NFT collection is targeted to reach all global lovers of art worldwide, consisting of a collection of artistic masterpieces selling every art piece to a global ecosystem of art loving nft collectors.
 </p>
             </div>

@@ -85,6 +85,31 @@ export default function Faqs (){
                                     </Card.Body>
                             </Accordion.Collapse>
                         </Card>
+                        <Card className="carr mt-5">
+                            <Accordion.Toggle as={Card.Header} className="head-font" eventKey="6">
+                            Does this project have any utilities? 
+                            <FaPlus />
+                            </Accordion.Toggle>
+
+                            <Accordion.Collapse eventKey="6">
+                                <Card.Body>
+                                Yes, buying OG NFT Society art welcomes you to an exclusive membership access to future OG NFT utilities which include Merch Drop for all holders of OG NFT art. Exclusive future access to  airdrop of OG NFT tokens to members. Exploring the metaverse and other future utilities
+
+                                   </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                        <Card className="carr mt-5">
+                            <Accordion.Toggle as={Card.Header} className="head-font" eventKey="7">
+                            How do I get whitelisted?
+                            <FaPlus />
+                            </Accordion.Toggle>
+
+                            <Accordion.Collapse eventKey="7">
+                                <Card.Body>
+                                Join our discord server and follow us on all social media platforms.
+                                   </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
                     </Accordion>
 
                     
