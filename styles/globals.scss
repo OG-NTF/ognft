@@ -35,7 +35,7 @@ p {
   font-family: 'Hanson';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 45px;
   color: #FFFFFF;
   letter-spacing: 0.01em;
@@ -50,15 +50,15 @@ p {
   width: 100%;
   height: auto;
   padding: 35px 0;
-
+  background: #FFFFFF;
+color: #000;
   ul {
     list-style-type: none;
     font-family: 'Hanson';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
-    color: #FFFFFF;
     letter-spacing: 0.01em;
 
     li {
@@ -74,7 +74,7 @@ p {
 
   p {
     font-family: "Gelano";
-    font-size: 20px;
+    font-size: 18px;
     line-height: 23px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
@@ -92,7 +92,7 @@ p {
       padding-bottom: 46px;
 
       .head-font {
-        font-size: 31.2px;
+        font-size: 29.2px;
         line-height: 32px;
         text-align: left;
         display: flex;
@@ -105,7 +105,7 @@ p {
 
 .roadmap {
   font-family: "Gelano";
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   text-align: center;
   padding-bottom: 162px;
@@ -152,12 +152,12 @@ p {
       }
 
       .text {
-        border-color: #9CFF00;
+        border-color: liner;
       }
     }
 
     .date {
-      font-size: 24px;
+      font-size: 22px;
       text-align: initial;
       // margin-right: 109p;
       line-height: normal;
@@ -172,7 +172,7 @@ p {
     }
 
     .title {
-      font-size: 16px;
+      font-size: 14px;
       text-align: initial;
       color: #414141;
       line-height: normal;
@@ -180,7 +180,7 @@ p {
 
     .text {
       font-family: "GelanoReg";
-      font-size: 15px;
+      font-size: 13px;
       line-height: 26px;
       text-align: initial;
       color: #414141;
@@ -203,21 +203,22 @@ p {
   width: 100%;
   height: auto;
   padding-top: 39px;
+  padding-bottom: 115.69px;
+  background: #D0CEC9;
 
   .mint-chd {
-    background: #9CFF00;
-    border-radius: 20px;
-    padding-top: 101px;
-    padding-bottom: 101px;
-    padding-right: 138px;
-
-    .cover {
-      margin-left: 209px;
+img{
+  width: 387.56px;
+height  :436px;
+object-fit: cover;
+margin-top: 87px;
+border-radius: 12.2432px;
+}
 
       a {
         font-family: 'Gelano';
         text-decoration: underline;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 32px;
         letter-spacing: 0.02em;
         text-decoration-line: underline;
@@ -226,14 +227,14 @@ p {
       }
 
       .dark {
-        font-size: 50px;
+        font-size: 48px;
         text-align: initial;
         margin-top: 31px;
       }
 
       p {
         font-family: "Gelano";
-        font-size: 24px;
+        font-size: 22px;
         line-height: 32px;
         letter-spacing: 0.02em;
         color: #010B12;
@@ -243,11 +244,10 @@ p {
     }
 
     .btn-cov {
-      width: 50%;
-
+margin-top: 57px;
       p {
         font-family: "GelanoReg";
-        font-size: 12px;
+        font-size: 10px;
         line-height: 32px;
         font-weight: bold;
       }
@@ -267,8 +267,6 @@ p {
         }
       }
     }
-
-  }
 }
 
 .meet {
@@ -284,7 +282,7 @@ p {
 
   .meet-tet {
     font-family: 'GelanoReg';
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     letter-spacing: 0.01em;
     color: #F5F6F8;
@@ -296,7 +294,7 @@ p {
 
     a {
       font-family: 'Gelano';
-      font-size: 15px;
+      font-size: 13px;
       line-height: 28px;
       letter-spacing: 0.346154px;
       text-decoration-line: underline !important;
@@ -324,19 +322,19 @@ p {
   padding-top: 83px;
   padding-left: 121px;
   padding-bottom: 97px;
-
+ background: #FFFFFF;
+ color: #000;
   // background-image: url(/img/bg.png);
   // background-repeat: no-repeat;
   .see {
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 28px;
     letter-spacing: 0.346154px;
     text-decoration-line: underline;
 
-    color: #FFFFFF;
 
   }
 
@@ -348,22 +346,20 @@ p {
   }
 
   .head-font {
-    font-size: 96px;
+    font-size: 94px;
     text-align: left;
     margin-bottom: 30px;
+    color: #000000;
   }
 
   .hero-tet {
     font-family: 'GelanoReg';
-    font-size: 17.5px;
+    font-size: 15.5px;
     line-height: 30px;
     letter-spacing: 0.01em;
     padding-bottom: 30px;
     font-weight: bold;
-    color: #FFFFFF;
   }
-
-  border-radius: 22.24px;
 
   .btn-wrap {
     margin-bottom: 70px;
@@ -382,7 +378,7 @@ p {
       font-family: 'Popping';
       font-style: normal;
       font-weight: 700;
-      font-size: 36.4px;
+      font-size: 34.4px;
       line-height: 55px;
 
       p {
@@ -393,10 +389,9 @@ p {
         /* or 138% */
 
         font-weight: 500;
-        font-size: 24.2667px;
+        font-size: 22.2667px;
         line-height: 36px;
-
-        color: rgba(255, 255, 255, 0.5);
+        color: #BFBFBF;
       }
     }
   }
@@ -407,7 +402,7 @@ p {
     // width: 100%;
     img {
       border-radius: 20px;
-      width: 100%;
+      width: 90%;
       object-fit: cover;
       height: 556px;
     }
@@ -452,7 +447,10 @@ p {
   width: 100%;
   height: auto;
   padding-top: 69px;
-
+  background: #FFFFFF;
+background-image: url(/img/gradient.png);
+background-repeat: no-repeat;
+background-position: 100% -15%;
   .footer-body {
     padding-left: 123px;
 
@@ -460,11 +458,11 @@ p {
       font-family: 'Hanson';
       font-style: normal;
       font-weight: 700;
-      font-size: 40px;
+      font-size: 38px;
       line-height: 55px;
       letter-spacing: 0.01em;
 
-      color: #9CFF00;
+      color: #000000;
     }
 
 
@@ -481,7 +479,7 @@ p {
     font-family: 'Hanson';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 62px;
     line-height: 45px;
     letter-spacing: 0.3px;
 
@@ -497,7 +495,7 @@ p {
 
     p {
       font-family: 'GelanoReg';
-      font-size: 16px;
+      font-size: 14px;
       line-height: 26px;
       font-weight: bold;
       color: #EFEFEF;
@@ -569,19 +567,27 @@ p {
 }
 
 .team {
-  background-image: url(/img/people.png);
-  background-size: contain;
+ 
   width: 100%;
   height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 218px;
-  padding-bottom: 418px;
+ 
+ 
   text-align: center;
-
+.bg{
+  background-image: url(/img/people.png);
+  background-size: contain;
+  background-position: center;
+   padding-top: 218px;
+  padding-bottom: 418px;
+margin: auto;
+width: 70%;
+height: 100%;
+  background-repeat: no-repeat;
+  
+}
   .text {
     font-family: 'GelanoReg';
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     text-align: center;
     margin-top: 32px;
@@ -697,7 +703,6 @@ p {
         }
 
         .btn-cov {
-          width: 100%;
 
           p {
             margin-top: 10px;

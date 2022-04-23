@@ -1,5 +1,5 @@
 .btn{
-    background: #9CFF00;
+    background: linear-gradient(180deg, #FEA989 0%, #FF2F61 99.99%, rgba(245, 138, 37, 0.32) 100%);
 border-radius: 8px;
 align-items: center;
 padding: 12px 24px;
@@ -13,8 +13,11 @@ letter-spacing: -0.02em;
 
 color: #101010;
 &.black{
-    background: #101010;
+    background: linear-gradient(121.82deg, #6D5DD3 30.85%, #FF2F61 87.25%);
     color: #fff;
+}
+&.white{
+    background:  #EFEFEF;;
 }
 &.font{
     font-family: 'GelanoReg';

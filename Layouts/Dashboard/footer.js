@@ -6,6 +6,7 @@ export default function Footer (){
             <div className='footer-body'>
             <img src="./img/logo.png" />
            <div>OG NFT <br /> COLLECTION </div>
+          
             </div>
         </div>
 )

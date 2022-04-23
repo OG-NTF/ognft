@@ -12,12 +12,11 @@ export default function Hero (){
    },
    {
     id:2,  
-    img:"./img/og.jpeg"
+    img:"/img/oas.PNG"
    },
    {
     id:3,  
-    img:"/img/oas.PNG"
-
+ img:"./img/og.jpeg"
    }
     ]
     const [people, setPeople] = useState(data);

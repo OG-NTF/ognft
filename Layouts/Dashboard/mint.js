@@ -5,11 +5,9 @@ export default function Mints (){
     const [count, setCount] = useState(0);
 return(
     <div className="mints">
-        <div className="mint-chd">
-            <div className="cover">
-                <div className="text-end"> 
-<a>  {'>> Buy on OpenSea <<'}</a>
-                    </div>
+        <div className="mint-chd col-10 m-auto row">
+    
+                  <div className="col-7">   
             <div className="head-font dark">Mint your own OG NFT</div>
             <p>Connect your own wallet and mint your own <br className="
             d-none d-md-block" /> unique, creative, awesome OG NFT</p>
@@ -24,7 +22,13 @@ return(
     <Button variant='black'>Mint NFT</Button>
 </div>
         </div>
-        </div>
+       </div>
+       <div className="col-5 text-end">
+           <div className="">
+               <a> {`>> Buy on OpenSea <<`} </a>
+           </div>
+           <img src="/img/nft.jpg" />
+       </div>
     </div>
     </div>
 )

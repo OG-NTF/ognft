@@ -51,16 +51,16 @@ export default function Meet(){
       </div>
         <Slider {...settings}>
           <div>
-            <img className="img-fluid w-100" style={{height: "300px" , objectFit: "cover"}} src="/img/nft.jpg" />
+            <img className="img-fluid " style={{height: "300px" , width: "90%", objectFit: "cover"}} src="/img/nft.jpg" />
           </div>
           <div>
-            <img className="img-fluid w-100" style={{height: "300px" , objectFit: "cover"}} src="/img/oas.PNG" />
+            <img className="img-fluid " style={{height: "300px" , width: "90%", objectFit: "cover"}} src="/img/oas.PNG" />
           </div>
           <div>
-            <img className="img-fluid w-100" style={{height: "300px" , objectFit: "cover"}} src="/img/og.jpeg" />
+            <img className="img-fluid " style={{height: "300px" , width: "90%", objectFit: "cover"}} src="/img/og.jpeg" />
           </div>
           <div>
-            <img className="img-fluid w-100" style={{height: "300px" , objectFit: "cover"}} src="/img/nft.jpg" />
+            <img className="img-fluid " style={{height: "300px" , width: "90%", objectFit: "cover"}} src="/img/nft.jpg" />
           </div>
         </Slider>
     </div>
