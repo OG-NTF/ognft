@@ -42,6 +42,7 @@ export default function Hero (){
   }, [index]);
     return(
 <div className="hero">
+  <div className="radial">
     <div className="row w-100 justify-content-between">
         <div className='col-12 col-md-6 mb-md-0 mb-5'>
             <div className="head-font">OG NFT</div>
@@ -103,7 +104,7 @@ export default function Hero (){
           </div>
        
         </div>
-        
+        </div>
     </div>
 </div>  
     )
