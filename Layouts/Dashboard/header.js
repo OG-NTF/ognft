@@ -14,7 +14,6 @@ export default function Header (){
             <li className="ms-0">ROADMAP</li>
             <li>ABOUT</li>
             <li>TEAM</li>
-            <li> CONTACT US</li>
             
         </ul>
         <Button variant='white'>

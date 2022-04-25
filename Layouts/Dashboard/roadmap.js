@@ -115,8 +115,12 @@ export default function Faqs() {
                                         <div className="circle"></div>
                                         <div className="head-font title">{d.title}</div>
                                     </div>
-                                    <div className={`mb-3 mb-md-0 text ${index + 1 == data.length ? "remoe" : ""}`}>
-                                        {d.text}            </div>
+                                    {/* <div >
+                                        {d.text}            </div> */}
+                                        <div className="d-flex mt-1">
+                                            <div className={` line ${index + 1 == data.length ? "remoe" : ""}`}></div>
+                                            <div className="text">{d.text}</div>
+                                        </div>
                                 </div>
                             </div>
                         )

@@ -1,6 +1,6 @@
 .btn{
-    background: linear-gradient(180deg, #FEA989 0%, #FF2F61 99.99%, rgba(245, 138, 37, 0.32) 100%);
-border-radius: 8px;
+    background: linear-gradient(96.24deg, #FF7448 0%, #FF4848 52.43%, #6248FF 92.36%);
+   border-radius: 8px;
 align-items: center;
 padding: 12px 24px;
 font-family: 'Hanson';
@@ -10,14 +10,17 @@ font-size: 12px;
 line-height: 26px;
 text-align: center !important;
 letter-spacing: -0.02em;
-
+border: 1px solid #000000;
 color: #101010;
 &.black{
-    background: linear-gradient(121.82deg, #6D5DD3 30.85%, #FF2F61 87.25%);
+    background: linear-gradient(96.24deg, #FF7448 0%, #FF4848 52.43%, #6248FF 92.36%);
     color: #fff;
+    border: 1px solid #FAFAFA;
 }
 &.white{
-    background:  #EFEFEF;;
+    background:  #EFEFEF;
+    border-radius: 8px;
+    border: none;
 }
 &.font{
     font-family: 'GelanoReg';

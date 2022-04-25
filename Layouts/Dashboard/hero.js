@@ -57,7 +57,7 @@ export default function Hero (){
 
     </button>
 </div>
-<div className="d-flex info justify-content-between">
+{/* <div className="d-flex info justify-content-between">
     <div>37k+
         <p>Artworks</p>
     </div>
@@ -67,7 +67,7 @@ export default function Hero (){
     <div>99k+
         <p>Auctions</p>
     </div>
-</div>
+</div> */}
         </div>
         <div className="col-sm-12 col-md-5 m-auto m-md-0 slide">
           <div className='slide-wrap'>

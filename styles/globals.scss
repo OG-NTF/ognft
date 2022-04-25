@@ -87,7 +87,7 @@ background-image: url(/img/rectangle.png);
     margin-top: 57px;
 
     .carr {
-      background: #010B12;
+      background: transparent;
       // background: rgba(255, 255, 255, 0.5);
       border-bottom: 1.56px solid rgba(255, 255, 255, 0.5);
       border-radius: 0;
@@ -130,31 +130,32 @@ background-image: url(/img/rectangle.png);
      
       .title {
         transition: all .3s ease-in-out;
-        color: #9CFF00 !important
+        color: #fff !important
       }
 
       .circle {
         transition: all .3s ease-in-out;
-        background: #9CFF00;
+        background: #FFFFFF;
       }
-
-      .text {
+      .line {
+        background: linear-gradient(#FF2F61, #7169E1);
         transition: all .3s ease-in-out;
-        border-color: #9CFF00;
-      }
+                
+              }
     }
 
     &:hover {
       .title {
-        color: #9CFF00 !important
+        color: #fff !important
       }
 
       .circle {
-        background: #9CFF00;
+        background: #fff;
       }
 
-      .text {
-        border-color: liner;
+      .line {
+background: linear-gradient(#FF2F61, #7169E1);
+        
       }
     }
 
@@ -186,15 +187,21 @@ background-image: url(/img/rectangle.png);
       line-height: 26px;
       text-align: initial;
       color: #414141;
-      border-left: 5px solid #414141;
-      ;
       padding-left: 31px;
       padding-top: 30px;
       margin-left: 5px;
       height: 260px;
 
+      
+    }
+    .line{
+      height: 260px;
+      width: 10px ;
+      margin-left: 5px;
+      background: #414141;
+
       &.remoe {
-        border: none !important;
+        display: none !important;
       }
     }
   }
@@ -206,7 +213,8 @@ background-image: url(/img/rectangle.png);
   height: auto;
   padding-top: 39px;
   padding-bottom: 115.69px;
-  background: #D0CEC9;
+  background: #020202;
+  color: #FFFFFF !important;
 
   .mint-chd {
 img{
@@ -224,8 +232,7 @@ border-radius: 12.2432px;
         line-height: 32px;
         letter-spacing: 0.02em;
         text-decoration-line: underline;
-        margin-top: -23pọ;
-        color: #010B12;
+        // margin-top: -23px
       }
 
       .dark {
@@ -239,7 +246,6 @@ border-radius: 12.2432px;
         font-size: 22px;
         line-height: 32px;
         letter-spacing: 0.02em;
-        color: #010B12;
 
       }
 
@@ -300,7 +306,7 @@ margin-top: 57px;
       line-height: 28px;
       letter-spacing: 0.346154px;
       text-decoration-line: underline !important;
-      color: #9CFF00 !important;
+      color: #CCD2E3 !important;
     }
   }
 
@@ -379,6 +385,7 @@ margin-top: 57px;
       border-radius: 10px;
       border: transparent;
       margin-left: 20px;
+      border: 1px solid #000000;
     }
   }
 
@@ -455,14 +462,16 @@ margin-top: 57px;
 .footer {
   width: 100%;
   height: auto;
-  padding-top: 69px;
+  padding-top: 89px;
+  padding-bottom: 216px;
   background: #FFFFFF;
-background-image: url(/img/gradient.png);
-background-repeat: no-repeat;
-background-position: 100% -15%;
+  background-image: url(/img/footer.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 87%;
   .footer-body {
     padding-left: 123px;
-
+align-items: center;
     div {
       font-family: 'Hanson';
       font-style: normal;
@@ -470,7 +479,7 @@ background-position: 100% -15%;
       font-size: 38px;
       line-height: 55px;
       letter-spacing: 0.01em;
-
+margin-left: 37px;
       color: #000000;
     }
 
@@ -585,11 +594,11 @@ background-position: 100% -15%;
 .bg{
   background-image: url(/img/people.png);
   background-size: contain;
-  background-position: center;
-   padding-top: 218px;
+  // background-position: center;
+   padding-top: 165px;
   padding-bottom: 418px;
 margin: auto;
-width: 70%;
+width: 80%;
 height: 100%;
   background-repeat: no-repeat;
   
@@ -621,10 +630,13 @@ height: 100%;
   }
 
   .hero {
-    padding-top: 63px;
+    .radial{
+       padding-top: 63px;
     padding-left: 70px;
     padding-bottom: 77px;
 
+    }
+   
     .head-font {
       font-size: 58px;
       margin-bottom: 20px;
@@ -634,9 +646,12 @@ height: 100%;
 
 @media screen and (max-width: 800px) {
   .hero {
-    padding-top: 33px;
+    .radial{
+        padding-top: 33px;
     padding-left: 30px;
     padding-bottom: 37px;
+    }
+  
   }
 
   .footer {
@@ -698,7 +713,9 @@ height: 100%;
   .mints {
     .mint-chd {
       padding-right: 10px;
-
+img{
+  width: 100%;
+}
       .cover {
         margin-left: 15px;
 
@@ -712,7 +729,6 @@ height: 100%;
         }
 
         .btn-cov {
-
           p {
             margin-top: 10px;
           }
@@ -760,8 +776,11 @@ height: 100%;
   }
 
   .team {
-    padding-top: 40px;
+    .bg{
+      padding-top: 40px;
     padding-bottom: 30px;
+    }
+    
 
     .text {
       font-size: 10px;
@@ -772,6 +791,7 @@ height: 100%;
   }
 
   .footer {
+    padding-bottom: 100px;
     .footer-body {
       div {
         font-size: 24px;

@@ -7,8 +7,8 @@ return(
 <div className='team'>
     <div className='bg'>
 <div className='head-font'>Team</div>
-<div className='text'>Our team of Creatives, Developers, Partners and OG’s</div>
-<Button variant='white'>
+ <div className='text'>Our team of Creatives, Developers, Partners and OG’s</div>
+ <Button variant='white'>
 Contact Us
 </Button>
 </div>
