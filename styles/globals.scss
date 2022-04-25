@@ -196,7 +196,8 @@ background: linear-gradient(#FF2F61, #7169E1);
     }
     .line{
       height: 260px;
-      width: 10px ;
+     min-width: 5px ;
+     max-width: 5px;
       margin-left: 5px;
       background: #414141;
 
@@ -674,7 +675,7 @@ height: 100%;
 
     .slide {
       .slide-wrap {
-        width: 250%;
+        width: 300%;
       }
     }
   }
@@ -776,7 +777,10 @@ img{
   }
 
   .team {
+    padding-bottom: 20px;
     .bg{
+      width: 100%;
+    background-position: center;
       padding-top: 40px;
     padding-bottom: 30px;
     }

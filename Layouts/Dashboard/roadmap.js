@@ -4,34 +4,29 @@ export default function Faqs() {
     const data = [
         {
             date: "Jan 2022",
-            title: "Project Art Development",
-            text: "The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More."
+            title: "Product Art Development",
+            text: "The OG NFT is a celebration of art, the art of being an OG! The art to have birthed a new ideology, invention or creative art that has left a positive mark on the lives of many. Towards achieving this feat, We are focused on modeling and art development of the OG NFT Character"
         },
         {
             date: "Jan 2022",
-            title: "Project Art Development",
-            text: "The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More."
+            title: "Primary Sales & Minting Website Launch",
+            text: "We are launching the OG NFT website, activating the primary sales minting and presales minting"
         },
         {
             date: "Jan 2022",
-            title: "Project Art Development",
-            text: "The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More."
+            title: "Deploying Arts and Sales",
+            text: "OG NFT belongs out there, for the whole world. We are deploying to IPFS storage and launching the OG NFT collection on OpenSea as our Secondary Sales platform for you to Ape in!"
         },
         {
             date: "Jan 2022",
-            title: "Project Art Development",
-            text: "The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More."
+            title: "Partnership and Merch Availability",
+            text: "We are a community, and to that effect we are family. We will make available utility merch that speaks for us all! And we will execute partnership deals with personalities and organizations"
         },
         {
             date: "Jan 2022",
-            title: "Project Art Development",
-            text: "The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More."
+            title: "The Metaverse",
+            text: "The OG NFT community will embrace the metaverse, we understand how much you could value your NFTs and we will ensure its continuous priceless value by exploring the Metaverse via OG NFT Game-to-Earn!"
         },
-        {
-            date: "Jan 2022",
-            title: "Project Art Development",
-            text: "The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More."
-        }
     ]
 
     const [activeRoadmap , setActiveRoadmap] = useState(-1)
@@ -107,7 +102,7 @@ export default function Faqs() {
                     data.map((d, index) => {
                         return (
 
-                            <div className={`row map roadmap_item${index} ${index == activeRoadmap ? "active": ""}`}>
+                            <div className={`row w-100 map roadmap_item${index} ${index == activeRoadmap ? "active": ""}`}>
                                 <div className="head-font col-md-3 col-4 date">{d.date}</div>
                                 <div className="col-md-8 col-7">
                                     <div className="d-flex align-items-center  ">
