@@ -4,7 +4,7 @@ import Button from "../../Components/Button";
 export default function Mints (){
     const [count, setCount] = useState(0);
 return(
-    <div className="mints">
+    <div className="mints" id="mint">
         <div className="mint-chd col-md-10 col-11 m-auto row">
     
                   <div className="col-md-7 col-12">   
@@ -27,7 +27,7 @@ return(
            <div className="">
                <a> {`>> Buy on OpenSea <<`} </a>
            </div>
-           <img src="/img/nft.jpg" />
+           <img src="/img/carou.png" />
        </div>
     </div>
     </div>

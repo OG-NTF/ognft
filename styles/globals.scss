@@ -333,6 +333,9 @@ margin-top: 57px;
  color: #000;
   background-image: url(/img/rectangle.png);
   background-repeat: no-repeat;
+  a{
+    text-decoration: none !important;
+  }
   .radial{
     padding-top: 83px;
   padding-left: 121px;
@@ -663,6 +666,17 @@ height: 100%;
 }
 
 @media screen and (max-width: 768px) {
+  .header{
+    .nav{
+      justify-content: space-between !important;
+      .ennd{
+        justify-content: flex-end !important;
+      }
+    }
+    img{
+      width: 50%;
+    }
+  }
   .head-font {
     font-size: 24px;
     line-height: 23px;
