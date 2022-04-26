@@ -14,7 +14,7 @@ return(
         The <span style={{color: ' #ec4b6a;'}}> OG</span>   NFT Story
         </div>
         <div className="row w-100 align-items-center justify-content-between">
-            <div className="col-12 col-md-4">The OG NFT goal is to connect individuals making huge and developing impacts in our society via their actions and ideas.</div>
+            <div className="col-12 col-md-4" data-aos="zoom-in-up">The OG NFT goal is to connect individuals making huge and developing impacts in our society via their actions and ideas.</div>
             
             <div className="col-12 col-md-3 text-center mt-2 mt-md-0">
             <svg width="197" height="141" viewBox="0 0 197 141" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,21 +35,19 @@ return(
                 <img src="/img/carou.png"/>
             
 
-                <p>The “OG NFT” Character draws its ideology from the traditional “OG” keyword in our society, commonly referred to as Original Gangster. </p>
+                <p data-aos="zoom-in-right">The “OG NFT” Character draws its ideology from the traditional “OG” keyword in our society, commonly referred to as Original Gangster. </p>
             </div>
             <div className="img2 col-md-5 col-12 position-relative">
             <img src="/img/carou1.png" className="abso d-none d-md-block"/>
             <img src="/img/carou2.png"/>
-<p className='text col-12'ref={ref} style={{
-   
-}}>The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More!!
+<p className='text col-12'ref={ref} data-aos="zoom-in-up">The use of the word OG has transcended across continents, races, and societies, with each sphere attributing to different definitions and narratives as to what the “OG” phenomenon connotes most of which revolves around being Accomplished, Experienced, Kingly or Queenly, Bosslike, Tough, disciplined, Ruthless, and More!!
 The OG brand recognizes notable personalities and individuals that have gone on to influence and shape modern societies. 
 </p>
 
             </div>
             <div className="img3 col-12 col-md-3">
             <img src="/img/carou.png"/>
-<p className='mt-3'>The OG NFT collection is targeted to reach all global lovers of art worldwide, consisting of a collection of artistic masterpieces selling every art piece to a global ecosystem of art loving nft collectors.
+<p data-aos="zoom-in-left" className='mt-3'>The OG NFT collection is targeted to reach all global lovers of art worldwide, consisting of a collection of artistic masterpieces selling every art piece to a global ecosystem of art loving nft collectors.
 </p>
             </div>
         </div>

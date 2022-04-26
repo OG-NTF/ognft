@@ -94,7 +94,7 @@ export default function Faqs() {
 
 
     return (
-        <div className="roadmap">
+        <div className="roadmap" id="roadmap">
             <div className="head-font">Roadmap</div>
             <p className="para">Our Journey through the project</p>
             <div className="data-cover col-md-9 col-12 m-auto">
@@ -114,7 +114,7 @@ export default function Faqs() {
                                         {d.text}            </div> */}
                                         <div className="d-flex mt-1">
                                             <div className={` line ${index + 1 == data.length ? "remoe" : ""}`}></div>
-                                            <div className="text">{d.text}</div>
+                                            <div className="text" data-aos="zoom-in-up">{d.text}</div>
                                         </div>
                                 </div>
                             </div>
