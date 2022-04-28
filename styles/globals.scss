@@ -224,8 +224,9 @@ background: linear-gradient(#FF2F61, #7169E1);
   height: auto;
   padding-top: 39px;
   padding-bottom: 115.69px;
-  background: #020202;
-  color: #FFFFFF !important;
+  background: #fff;
+  color: #020202 !important;
+  background-image: url(/img/rectangle.png);
 
   .mint-chd {
 img{
@@ -345,6 +346,7 @@ margin-top: 57px;
   background-repeat: no-repeat;
   a{
     text-decoration: none !important;
+    color: #000000;
   }
   .radial{
     padding-top: 83px;
