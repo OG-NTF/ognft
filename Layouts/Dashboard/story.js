@@ -9,7 +9,7 @@ export default function Story (){
   })
 
 return(
-    <div className="story" style={{paddingBottom: (height +131)+ 'px'}}>
+    <div id='story' className="story" style={{paddingBottom: (height +131)+ 'px'}}>
         <div className="story-head">
         The <span style={{color: ' #ec4b6a;'}}> OG</span>   NFT Story
         </div>

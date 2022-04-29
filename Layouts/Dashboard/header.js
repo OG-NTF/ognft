@@ -17,7 +17,7 @@ export default function Header (){
                 <a>ROADMAP </a>
                 </Link>
                 </li>
-            <li> <Link href='#about'>
+            <li> <Link href='#story'>
             <a>ABOUT </a>
             </Link>
                 </li>
