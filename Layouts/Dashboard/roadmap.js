@@ -13,7 +13,7 @@ export default function Faqs() {
             text: "We are launching the OG NFT website, activating the primary sales minting and presales minting"
         },
         {
-            date: "Jan 2022",
+            date: "July 2022",
             title: "Deploying Arts and Sales",
             text: "OG NFT belongs out there, for the whole world. We are deploying to IPFS storage and launching the OG NFT collection on OpenSea as our Secondary Sales platform for you to Ape in!"
         },
