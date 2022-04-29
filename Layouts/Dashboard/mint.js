@@ -5,9 +5,9 @@ export default function Mints (){
     const [count, setCount] = useState(0);
 return(
     <div className="mints" id="mint">
-        <div className="mint-chd col-md-10 col-11 m-auto row">
+        <div className="mint-chd col-md-10 col-11 m-auto row justify-content-between">
     
-                  <div className="col-md-7 col-12">   
+                  <div className="col-md-6 col-12" style={{paddingTop: "87px"}}>   
             <div className="head-font" style={{textAlign: "left", color: '#000', marginTop: '31px'}}>Mint your own OG NFT</div>
             <p>Connect your own wallet and mint your own <br className="
             d-none d-md-block" /> unique, creative, awesome OG NFT</p>
