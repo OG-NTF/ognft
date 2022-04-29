@@ -3,12 +3,12 @@ import React, { useLayoutEffect, useState } from "react"
 export default function Faqs() {
     const data = [
         {
-            date: "Jan 2022",
+            date: " March-May 2022",
             title: "Product Art Development",
             text: "The OG NFT is a celebration of art, the art of being an OG! The art to have birthed a new ideology, invention or creative art that has left a positive mark on the lives of many. Towards achieving this feat, We are focused on modeling and art development of the OG NFT Character"
         },
         {
-            date: "Jan 2022",
+            date: "June 2022",
             title: "Primary Sales & Minting Website Launch",
             text: "We are launching the OG NFT website, activating the primary sales minting and presales minting"
         },
@@ -18,12 +18,12 @@ export default function Faqs() {
             text: "OG NFT belongs out there, for the whole world. We are deploying to IPFS storage and launching the OG NFT collection on OpenSea as our Secondary Sales platform for you to Ape in!"
         },
         {
-            date: "Jan 2022",
+            date: "Sept 2022",
             title: "Partnership and Merch Availability",
             text: "We are a community, and to that effect we are family. We will make available utility merch that speaks for us all! And we will execute partnership deals with personalities and organizations"
         },
         {
-            date: "Jan 2022",
+            date: "Feb 2023",
             title: "The Metaverse",
             text: "The OG NFT community will embrace the metaverse, we understand how much you could value your NFTs and we will ensure its continuous priceless value by exploring the Metaverse via OG NFT Game-to-Earn!"
         },
