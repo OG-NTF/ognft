@@ -53,9 +53,9 @@ p {
   height: auto;
   padding: 15px 0;
   background: #FFFFFF;
-color: #000;
-background-image: url(/img/rectangle.png);
-  background-repeat: no-repeat;
+color: #fff;
+--tw-bg-opacity: 1 !important;
+background-color: rgba(1,25,45,var(--tw-bg-opacity))!important;
   ul {
     list-style-type: none;
     font-family: 'Hanson';
@@ -71,7 +71,7 @@ background-image: url(/img/rectangle.png);
   }
   a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
   }
 }
 
@@ -226,9 +226,9 @@ background: linear-gradient(#FF2F61, #7169E1);
   height: auto;
   padding-top: 39px;
   padding-bottom: 115.69px;
-  background: #fff;
-  color: #020202 !important;
-  background-image: url(/img/rectangle.png);
+  // background: #fff;
+  color: #fff !important;
+  // background-image: url(/img/rectangle.png);
 
   .mint-chd {
 img{
@@ -341,22 +341,35 @@ margin-top: 57px;
 .hero {
   width: 100%;
   height: auto;
-  
  background: #FFFFFF;
- color: #000;
-  background-image: url(/img/rectangle.png);
-  background-repeat: no-repeat;
+ color: #fff;
+ --tw-bg-opacity: 1 !important;
+ overflow: hidden;
+ background-color: rgba(1,25,45,var(--tw-bg-opacity))!important;
   a{
     text-decoration: none !important;
-    color: #fff;
+    color: #000;
+  }
+  #tsparticles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  canvas{
+    height: 660px;
   }
   .radial{
     padding-top: 83px;
   padding-left: 121px;
   padding-bottom: 97px;
-  background-image: url(/img/vector.svg);
-  background-position: 80% -13px;
-  background-repeat: no-repeat;
+  // overflow: hidden;
+  // // background-image: url(/img/vector.svg);
+  // background-position: 80% -13px;
+  // background-repeat: no-repeat;
     
   }
   .see {
@@ -382,7 +395,7 @@ margin-top: 57px;
     font-size: 94px;
     text-align: left;
     margin-bottom: 30px;
-    color: #000000;
+    color: #fff;
   }
 
   .hero-tet {
@@ -482,11 +495,9 @@ margin-top: 57px;
   height: auto;
   padding-top: 89px;
   padding-bottom: 216px;
-  background: #FFFFFF;
-  background-image: url(/img/footer.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 87%;
+--tw-bg-opacity: 1 !important;
+background-color: rgba(1,25,45,var(--tw-bg-opacity))!important;
+  
   .footer-body {
     padding-left: 123px;
 align-items: center;
@@ -498,7 +509,7 @@ align-items: center;
       line-height: 55px;
       letter-spacing: 0.01em;
 margin-left: 37px;
-      color: #000000;
+      color: #fff;
     }
 
 
@@ -633,7 +644,32 @@ height: 100%;
     color: #F5F6F8;
   }
 }
-
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background: #0A0A0A !important;
+  background: rgba(0, 0, 0, 0.97);
+  // color: #000;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 1rem;
+  box-shadow: hsl(360, 67%, 44%);
+  transition: all 0.3s linear;
+  z-index: 5;
+  padding: 20px;
+  // transform: translate(-100%);
+  svg{
+    float: right;
+    font-size: 50px;
+  }
+  ul{
+    font-size: 20px !important;
+  }
+  
+}
 
 @media screen and (max-width: 950px) {
   .header {
@@ -681,6 +717,7 @@ height: 100%;
 
 @media screen and (max-width: 768px) {
   .header{
+    color: #fff;
     .nav{
       justify-content: space-between !important;
       .ennd{
@@ -689,6 +726,7 @@ height: 100%;
     }
     img{
       width: 80%;
+      color: #fff;
     }
   }
   .head-font {

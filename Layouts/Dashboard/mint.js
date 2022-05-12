@@ -8,7 +8,7 @@ return(
         <div className="mint-chd col-md-10 col-11 m-auto row justify-content-between">
     
                   <div className="col-md-6 col-12" style={{paddingTop: "87px"}}>   
-            <div className="head-font mb-3" style={{textAlign: "left", color: '#000', marginTop: '31px'}}>Mint your own OG NFT</div>
+            <div className="head-font mb-3" style={{textAlign: "left", marginTop: '31px'}}>Mint your own OG NFT</div>
             <p>Connect your own wallet and mint your own <br className="
             d-none d-md-block" /> unique, creative, awesome OG NFT</p>
         <div className="btn-cov">
