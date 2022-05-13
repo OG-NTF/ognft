@@ -37,7 +37,7 @@ export default function Header (){
         </div>
        
 
-<FaBars onClick={()=>setInputVisible(true)} className="d-md-none d-block" style={{fontSize:"50px"}} />
+<FaBars onClick={()=>setInputVisible(true)} className="d-md-none d-block" style={{fontSize:"30px"}} />
 
 {
     isInputVisible && <>
