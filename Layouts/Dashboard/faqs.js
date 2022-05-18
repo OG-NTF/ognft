@@ -26,7 +26,7 @@ export default function Faqs (){
 
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="1">
-                            What is our Mint price :
+                            What is our Mint price
                             <FaPlus />
 
                             </Accordion.Toggle>
