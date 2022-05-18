@@ -13,7 +13,7 @@ export default function Faqs (){
                     <Accordion className="acc col-md-8 col-12">
                         <Card className="carr">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="0">
-                            What is an NFT
+                            What is an NFT?
                             <FaPlus />
                             </Accordion.Toggle>
 
@@ -26,7 +26,7 @@ export default function Faqs (){
 
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="1">
-                            What is our Mint price
+                            What is our Mint price?
                             <FaPlus />
 
                             </Accordion.Toggle>
@@ -39,7 +39,7 @@ export default function Faqs (){
                         </Card>
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="2">
-                            What is the Mint date
+                            What is the Mint date?
                             <FaPlus />
                             </Accordion.Toggle>
 
@@ -51,7 +51,7 @@ export default function Faqs (){
                         </Card>
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="3">
-                            What is the Total Number of available mint
+                            What is the Total Number of available mint?
                             <FaPlus />
                             </Accordion.Toggle>
 
@@ -63,7 +63,7 @@ export default function Faqs (){
                         </Card>
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="4">
-                            On what Blockchain Network will OG NFT Society be on
+                            On what Blockchain Network will OG NFT Society be on?
                             <FaPlus />
                             </Accordion.Toggle>
 
@@ -75,7 +75,7 @@ export default function Faqs (){
                         </Card>
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="5">
-                            Who Holds the IP rights of OG NFT Society
+                            Who Holds the IP rights of OG NFT Society?
                             <FaPlus />
                             </Accordion.Toggle>
 
@@ -93,7 +93,7 @@ export default function Faqs (){
 
                             <Accordion.Collapse eventKey="6">
                                 <Card.Body>
-                                Yes, buying OG NFT Society art welcomes you to an exclusive membership access to future OG NFT utilities which include Merch Drop for all holders of OG NFT art. Exclusive future access to  airdrop of OG NFT tokens to members. Exploring the metaverse and other future utilities
+                                Yes, buying OG NFT Society art welcomes you to an exclusive membership access to future OG NFT utilities which include Merch Drop for all holders of OG NFT art. Exclusive future access to  airdrop of OG NFT tokens to members. Exploring the metaverse and other future utilities 
 
                                    </Card.Body>
                             </Accordion.Collapse>
