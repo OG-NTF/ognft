@@ -75,7 +75,7 @@ export default function Faqs (){
                         </Card>
                         <Card className="carr mt-5">
                             <Accordion.Toggle as={Card.Header} className="head-font" eventKey="5">
-                            Who Holds the IP rights of OG NFT Society:
+                            Who Holds the IP rights of OG NFT Society
                             <FaPlus />
                             </Accordion.Toggle>
 
