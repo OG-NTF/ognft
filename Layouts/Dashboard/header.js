@@ -25,13 +25,15 @@ export default function Header (){
             <a>ABOUT </a>
             </Link>
                 </li>
-            <li>  <Link href='#mint'>
+            <li>  <Link href='mint'>
     <a>  MINT</a>
       </Link></li>
             
         </ul>
         <div className=" d-md-block d-none">
              <Button variant='white'>
+      Connect Wallet
+
        <MetaMaskAuth />
 </Button>
         </div>
@@ -60,6 +62,7 @@ export default function Header (){
     <a>  MINT</a>
       </Link></li>
            <Button variant='black'>
+      Connect Wallet
        <MetaMaskAuth />
 </Button> 
         </ul>

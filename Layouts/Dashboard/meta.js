@@ -66,7 +66,7 @@ function Connect({ setUserAddress }) {
     return (
       <a href={metamaskAppDeepLink}>
          <button className={styles.button}>
-           Connect Wallet
+           {/* Connect Wallet */}
          </button>
       </a>
     );
@@ -75,7 +75,7 @@ function Connect({ setUserAddress }) {
   
   return (
     <a onClick={() => connect(setUserAddress)}>
-      Connect Wallet
+      {/* Connect Wallet */}
     </a>
   );
 }

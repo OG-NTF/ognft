@@ -146,7 +146,7 @@ style={{}}
 </p>
 <div className="btn-wrap">
     <Button variant='font'>
-      <Link href='#mint'>
+      <Link href='mint'>
     <a>  MINT NOW</a>
       </Link>
       </Button>
