@@ -105,7 +105,7 @@ style={{}}
         detectRetina: true,
       }}
     />
-    <div className="connect-notify">
+    <div className="connect-notify position-relative">
       <div className="verify-content">
         <div className="Ghty">
         <p color="#25174E" className=" bWPpuW">Wallet Not Connected</p>
@@ -113,7 +113,9 @@ style={{}}
         </div>
         <div className="ggyh">
         <div className="d-inline-block button-wrapper">
-          <button className="button purple " style={{filter:"1px"}}>Connect</button>
+          <button className="button purple " style={{filter:"1px"}}>
+     <MetaMaskAuth />
+          </button>
           </div>
         </div>
       </div>
