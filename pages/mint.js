@@ -109,7 +109,7 @@ style={{}}
       <div className="verify-content">
         <div className="Ghty">
         <p color="#25174E" className=" bWPpuW">Wallet Not Connected</p>
-        <p color="#25174E8C" className=" bwhBck">To mint and transfer a Pozzle Planet NFT, you need to first connect your wallet</p>
+        <p color="#25174E8C" className=" bwhBck">To mint and transfer OG NFT, you need to first connect your wallet</p>
         </div>
         <div className="ggyh">
         <div className="d-inline-block button-wrapper">
